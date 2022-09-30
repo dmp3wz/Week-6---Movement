@@ -11,6 +11,7 @@ public class MoveObjectRB03 : MonoBehaviour
     {
         moveDirection = new Vector3(-5, 0, 0); // Don't change this!
         rigidbody = GetComponent<Rigidbody>();
+        rigidbody.AddForce(moveDirection, ForceMode.Impulse);
     }
 
     // Update is called once per frame
