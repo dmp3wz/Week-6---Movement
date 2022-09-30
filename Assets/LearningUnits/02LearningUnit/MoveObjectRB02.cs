@@ -11,7 +11,7 @@ public class MoveObjectRB02 : MonoBehaviour
     {
         // Where does one find a rigidbody these days anyway?
 
-	    //rigidbody = rigidbody;
+	    rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
